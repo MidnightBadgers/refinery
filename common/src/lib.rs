@@ -1,14 +1,17 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+
+struct Campaign {
+    characters: Vec<Character>,
+    gms: Vec<GameMaster>,
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+struct Character {
+    user: User,
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
 }
+
+struct GameMaster {}
+
+struct User {
+    name: String,
+}
+

@@ -45,3 +45,14 @@ The goals of this project include:
 
 - [ ] The final server should be easy to run on a computer with minimal resources
 - [ ] The final client should be easy to run within a browser on a modest computer
+
+## Design
+
+This whole project will use the latest version of the Bevy engine (0.15 at the
+time of writing). As such, if you are using the supporting "common" types,
+you will implicitly pull in bevy as well. This is done mostly to satisfy the
+Rust orphan rule.
+
+Rulesets will be implemented in a set of supported scripting languages/VMs
+(Lua, Rhai, WASM). Configurations will include a way to override portions of
+default rulesets by implementing handlers for certain events.
