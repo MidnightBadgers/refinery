@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["common", "client", "server"]
+
+[workspace.package]
+description = "A self-hostable virtual table top system."
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.83"
+authors = ["esarver", "pelgerr"]
+
+[workspace.dependencies]
+anyhow = "1.0.95"
+bevy = "0.15.0"
+clap = { version = "4.5.23", features = ["derive", "string"] }
+thiserror = "2.0.9"
+tracing = { version = "0.1.41", features = ["log", "async-await"] }
+tracing-subscriber = "0.3.19"
