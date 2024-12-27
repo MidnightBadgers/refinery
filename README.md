@@ -40,3 +40,8 @@ The goals of this project include:
 
 - [ ] The whole system should be easily self-hostable (ideally just a single binary)
 - [ ] The system should be easy to migrate between host computers (i.e. data easily separable)
+
+### System Requirements
+
+- [ ] The final server should be easy to run on a computer with minimal resources
+- [ ] The final client should be easy to run within a browser on a modest computer
