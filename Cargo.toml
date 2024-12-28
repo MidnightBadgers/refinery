@@ -15,6 +15,8 @@ bevy = "0.15.0"
 clap = { version = "4.5.23", features = ["derive", "string"] }
 client = { path = "../client" }
 common = { path = "../common" }
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.134"
 thiserror = "2.0.9"
 tracing = { version = "0.1.41", features = ["log", "async-await"] }
 tracing-subscriber = "0.3.19"
